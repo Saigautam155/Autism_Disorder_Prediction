@@ -21,7 +21,7 @@ st.set_page_config(page_title="Autism Chatbot", layout="wide")
 load_dotenv()
 
 # Configure Generative AI
-genai.configure(api_key="AIzaSyDpunef5zs8EeVQ3da45fnu5q21JCczI20")
+genai.configure(api_key="Give Your Google Api Code")
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat(history=[])
 
